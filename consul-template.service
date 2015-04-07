@@ -1,0 +1,5 @@
+#!/bin/sh
+
+exec consul-template \
+     -consul=consul:8500 \
+     -template "/etc/consul-templates/thumbor.conf:/root/thumbor.conf:supervisord && supervisorctl restart all"
