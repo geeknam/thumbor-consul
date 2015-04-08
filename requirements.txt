@@ -2,6 +2,6 @@ thumbor==4.12.2
 python-dateutil
 boto
 git+git://github.com/geeknam/thumbor_aws.git
-#colour
-#opencv_engine
+colour
+opencv_engine
 redis==2.10.3
